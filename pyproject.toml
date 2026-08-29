@@ -36,7 +36,7 @@ dev = [
   "pytest-cov>=5,<8",
   "ruff>=0.9,<1",
   "setuptools>=83,<85",
-  "twine>=5,<7",
+  "twine>=5,<8",
   "wheel>=0.45,<1",
 ]
 
