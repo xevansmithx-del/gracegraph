@@ -1,0 +1,4 @@
+GraceGraph synthetic public demonstration artifact.
+
+This text establishes only that a documentary record exists. It is not empirical
+evidence for a biological effect.

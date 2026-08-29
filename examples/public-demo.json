@@ -1,0 +1,56 @@
+{
+  "actions": [
+    {
+      "effort": 2,
+      "id": "run-controlled-study",
+      "requires": [
+        "method-note-recorded"
+      ],
+      "resolves": [
+        "biological-effect"
+      ],
+      "risk": 1,
+      "time": 3,
+      "title": "Design an independently authorized controlled study"
+    }
+  ],
+  "artifacts": [
+    {
+      "authority": "DOCUMENTARY",
+      "id": "method-note",
+      "path": "examples/synthetic/method-note.txt",
+      "sha256": "0681718a30c1f8166223797d349ffbaf66686a9393f530de2821bcd212f1cbda"
+    }
+  ],
+  "claim_ceiling": "DOCUMENTARY",
+  "claims": [
+    {
+      "claim_kind": "BIOLOGICAL_RESULT",
+      "declared_state": "VERIFIED",
+      "domain": "BIOLOGICAL",
+      "evidence": [
+        "method-note"
+      ],
+      "id": "biological-effect",
+      "required_authority": "EMPIRICAL"
+    },
+    {
+      "claim_kind": "DOCUMENTARY_RECORD",
+      "declared_state": "VERIFIED",
+      "domain": "DOCUMENTARY",
+      "evidence": [
+        "method-note"
+      ],
+      "id": "method-note-recorded",
+      "required_authority": "DOCUMENTARY"
+    }
+  ],
+  "memory_sources": [],
+  "nonclaims": [
+    "No biological effect is established.",
+    "No experiment or clinical action is authorized.",
+    "The action score is a bounded software heuristic, not a scientific optimum."
+  ],
+  "project_id": "gracegraph-public-demo",
+  "schema_version": "gracegraph.spec.v1"
+}
