@@ -1,6 +1,6 @@
 # Scientific boundaries
 
-GraceGraph 0.1.0a1 is research software at empirical `N=0`.
+GraceGraph 0.1.0a2 is research software at empirical `N=0`.
 
 It can establish bounded software facts such as byte identity, exact inventory
 membership, deterministic replay, and whether a documentary record exists. It cannot

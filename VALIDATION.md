@@ -1,4 +1,4 @@
-# GraceGraph 0.1.0a1 validation
+# GraceGraph 0.1.0a2 validation
 
 Status: **capsule-core pre-alpha; software validation only**
 

@@ -9,7 +9,7 @@ from typing import Any
 from .canonical import GraceGraphError, read_json, unique_ids
 
 SCHEMA_VERSION = "gracegraph.spec.v1"
-COMPILER_VERSION = "0.1.0a1"
+COMPILER_VERSION = "0.1.0a2"
 STATES = {
     "VERIFIED",
     "HOLD",

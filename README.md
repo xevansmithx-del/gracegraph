@@ -1,6 +1,6 @@
 # GraceGraph capsule-core pre-alpha
 
-GraceGraph 0.1.0a1 is the first fail-closed kernel of an evidence graph compiler. It binds exact artifact bytes,
+GraceGraph 0.1.0a2 is the first fail-closed kernel of an evidence graph compiler. It binds exact artifact bytes,
 complete file inventories, persistent-memory integrity, typed claims, authority
 ceilings, dependency invalidation, and a deterministic next-action frontier into
 one replayable capsule.
@@ -53,6 +53,6 @@ Supplying the root reports `PASS_LIVE_REPLAY` and fails when the project has dri
 `diff` reports node state changes between two valid capsules. `explain` returns a
 node's bounded disposition, reasons, and direct incoming/outgoing evidence edges.
 
-See `docs/ADR-0001-evidence-graph-compiler.md` for the architectural choice and
-`docs/REQUIREMENTS_TRACEABILITY.md` for audit-to-test traceability. `VALIDATION.md`
+See `docs/ARCHITECTURE.md` for the compiler architecture and
+`docs/SCIENTIFIC_BOUNDARIES.md` for the fixed authority boundary. `VALIDATION.md`
 records the reproduced alpha checks and explicit non-deliveries.
