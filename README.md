@@ -38,10 +38,10 @@ on Linux and macOS.
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -e .
-gracegraph compile examples/public-demo.json \
+.venv/bin/gracegraph compile examples/public-demo.json \
   --project-root . \
   --out /tmp/gracegraph-capsule
-gracegraph verify /tmp/gracegraph-capsule \
+.venv/bin/gracegraph verify /tmp/gracegraph-capsule \
   --project-root .
 ```
 
